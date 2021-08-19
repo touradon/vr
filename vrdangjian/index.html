@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>VR党建系统-VR看房系统源码,房产微沙盘,智慧案场,5G+VR网上售楼处</title>
+    <meta name="Keywords" content="房地产营销方案,电子沙盘,微沙盘,线上售楼处,移动案场,楼盘线上展厅">
+    <meta name="description" content="VR看房是通过3D模拟、多媒体、互联网等技术，突破时间、空间等条件限制,将传统的楼书转化为带有便捷交互的数字化楼书产品，拥有沉浸式、互动性、实时性的线上体验,实现身临其境的看房体验,为用户带来科技感十足的看房体验，在线全方位了解房屋的户型和细节，线上线下资源整合，也为传统的地产营销转型提供了全新思路。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/n.css">
+    <!--[if lt IE 10]><script src="/static/js/html5shiv.min.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="/static/js/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="header">
+        <div id="topNav">
+            <div class="wrapper top_wrap">
+                <div class="top_logo" href="">
+                    <a href="http://ivryun.com/vrkanfang/" title="VR看房系统">
+                        <img src="images/vrlogo.png" alt="VR看房-VR看房系统,微沙盘,全景看房系统,5G+VR网上售楼处">
+                    </a>
+                </div>
+                <div class="menu-btn">
+                    <span></span>
+                </div>
+                <div class="menu-wrap">
+                    <div class="top_menu">
+                        <ul class="swift_nav" id="swiftNav">
+                            <li class="menu active" id="main1"><a href="javascript:void(0)" class="">首页</a></li>
+                            <li class="menu" id="main2"><a href="javascript:void(0)" class="">VR党建</a></li>
+                            <li class="menu" id="main3"><a href="javascript:void(0)" class="">功能亮点</a></li>
+                            <li class="menu" id="main4"><a href="javascript:void(0)" class="">适用场景</a></li>
+                            <li class="menu" id="main5"><a href="javascript:void(0)" class="">案例展示</a></li>
+                            <li class="menu" id="main6"><a href="javascript:void(0)" class="">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-btn-wrap">
+                        <a href="http://www.lyhot.com/xiyue/" target="_blank" class="header-btn">
+                            <svg class="animate-bounce-up" t="1622444538117" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3295" width="48" height="48"><path d="M266.24 225.28h491.52l81.92 102.4H184.32z" fill="#304ECE" opacity=".3" p-id="3296" data-spm-anchor-id="a313x.7781069.0.i1" class=""></path><path d="M225.28 307.2h573.44c45.056 0 81.92 36.864 81.92 81.92v368.64c0 45.056-36.864 81.92-81.92 81.92h-122.88c-40.96 0-61.44-81.92-163.84-81.92s-102.4 81.92-163.84 81.92h-122.88c-45.056 0-81.92-36.864-81.92-81.92V389.12c0-45.056 36.864-81.92 81.92-81.92z m122.88 327.68c45.056 0 81.92-36.864 81.92-81.92s-36.864-81.92-81.92-81.92-81.92 36.864-81.92 81.92 36.864 81.92 81.92 81.92z m327.68 0c45.056 0 81.92-36.864 81.92-81.92s-36.864-81.92-81.92-81.92-81.92 36.864-81.92 81.92 36.864 81.92 81.92 81.92z" fill="#1553f5" p-id="3297" data-spm-anchor-id="a313x.7781069.0.i0" class=""></path></svg>
+                            立即体验
+                        </a>
+                        <!-- <a href="https://www.wjx.top/vm/Yj0UCAy.aspx" target="_blank" class="header-btn" style="border: 1px solid #3370ff;color: #3370ff;">全景约拍</a> -->
+                        <div class="header-btn3">
+                            <!-- <img class="animate-bounce-up" src="images/002.jpg">  -->
+                            <svg class="animate-bounce-up" t="1622444883922" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6532" width="48" height="48"><path d="M419.6 344l-88 89.6c45.8 101.7 143 215 255.7 253.1l76.1-75.8s180.3 31.5 220.8 51.1c35.2 17 46.8 54.8 41.3 101.4-5.8 50.1-71.5 160.5-189.7 161.7-118.2 1.2-292.3-87.9-417-219.2-124.7-131.5-235.9-298.1-218-439.5C118.5 124.9 241.7 99.6 272.5 97.3c31.2-2.3 55.9 6.8 74.7 30.1 24.2 30.1 72.4 216.6 72.4 216.6z" fill="#1553f5" p-id="6533"></path></svg>
+                            <span>4000-123-720</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="dd-banner" class="dd_1 main1">
+        <div class="cw1200">
+            <div class="left inline-block v-middle">
+                <div class="t1">VR党建系统</div>
+                <div class="t2">沉浸式、互动式的党员学习和服务智慧平台</div>
+                <div class="t3">充分利用VR虚拟现实、VR历史还原、人工智能等先进技术，建设VR智慧党建展厅，打造一个沉浸式、互动式的党员学习和服务智慧平台。</div>
+                <a class="t4 text-center" href="http://www.lyhot.com/xiyue/" target="_blank">立即体验</a>
+            </div>
+            <div class="right inline-block v-middle"><img src="images/banner3.png" width="100%"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="container vr main2">
+        <div class="wrapper">
+            <div class="title-wrap">
+                <h2 class="title">VR党建系统</h2>
+                <!-- <p class="title-desc">彻底解决营销无积累、过程难管控的弊端</p> -->
+            </div>
+            <div class="vr-system vr-dj">
+                <ul class="system-lists flex">
+                    <li class="system-item">
+                        <img src="images/icon-27.png" alt="">
+                        <h3>体验佳</h3>
+                        <p>突破表现形式单一、内容单调的 传统体验，以更具互动性、沉浸 感的方式生动再现历史场景</p>
+                    </li>
+                    <li class="system-item">
+                        <img src="images/icon-28.png" alt="">
+                        <h3>成本低</h3>
+                        <p>解决以往红色展馆成本高、占地大、内容更新滞后等痛点，突破时空局限，随时随地体验红色教育内容</p>
+                    </li>
+                    <li class="system-item">
+                        <img src="images/icon-29.png" alt="">
+                        <h3>效果好</h3>
+                        <p>改善体验者被动接收党建知识、遗忘快、感受差等问题，通过VR学习自主控制节奏，提高学习积极性，高效地掌握党建内容</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="vrParty">
+        <div class="wrapper">
+            <div class="title-wrap wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
+                <h2 class="title">VR党建内容</h2>
+            </div>
+            <div class="vrParty-content">
+                <ul class="vrParty-list">
+                    <li class="vrParty-item wow fadeInUp  animated" style="animation-delay: 0.1s; visibility: visible; animation-name: fadeInUp;">
+                        <div class="inner">
+                            <div class="img"><img src="images/vrParty-1.png" alt=""></div>
+                            <h3>革命历史还原</h3>
+                            <p>爬雪山、过草地、强渡大渡河</p>
+                        </div>
+                    </li>
+                    <li class="vrParty-item wow fadeInUp  animated" style="animation-delay: 0.2s; visibility: visible; animation-name: fadeInUp;">
+                        <div class="inner">
+                            <div class="img"><img src="images/vrParty-2.png" alt=""></div>
+                            <h3>先进成就展示</h3>
+                            <p>中国航天、中国海洋、伟大复兴</p>
+                        </div>
+                    </li>
+                    <li class="vrParty-item wow fadeInUp  animated" style="animation-delay: 0.3s; visibility: visible; animation-name: fadeInUp;">
+                        <div class="inner">
+                            <div class="img"><img src="images/vrParty-3.png" alt=""></div>
+                            <h3>红色数字展馆</h3>
+                            <p>党史体验、解放战争、党建100周年等内容展馆</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="partyScenario">
+        <div class="wrapper">
+            <div class="title-wrap wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
+                <h2 class="title">应用场景</h2>
+            </div>
+            <div class="partyScenario-content">
+                <ul class="partyScenario-list">
+                    <li class="partyScenario-item wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/vrParty-4.png" alt=""></div>
+                        <div class="content">
+                            <h3>爱国主义教育</h3>
+                            <p>适用于各类红色教育基地、研学基地等进行爱国主义教育、党性教育</p>
+                        </div>
+                    </li>
+                    <li class="partyScenario-item wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/vrParty-5.png" alt=""></div>
+                        <div class="content">
+                            <h3>党建活动</h3>
+                            <p>适用于各类街道党建活动中心、企事业单位党支部活动中心、政府机构等进行党建活动</p>
+                        </div>
+                    </li>
+                    <li class="partyScenario-item wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/vrParty-6.png" alt=""></div>
+                        <div class="content">
+                            <h3>文化展馆</h3>
+                            <p>适用于各类大型党建馆、党史馆、文化纪念馆、博物馆等进行党史知识文化拓展体验学习</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container vr main5">
+        <div class="wrapper">
+            <div class="title-wrap">
+                <h2 class="title">案例展示</h2>
+                <!-- <p class="title-desc">彻底解决营销无积累、过程难管控的弊端</p> -->
+            </div>
+
+            <ul class="case flex  wow animated fadeInUp">
+                <li class="case-item">
+                    <a href="https://vrshoulou.cn/t/1" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case1.jpg" alt="临沂中心">
+                        </div>
+                        <div class="case-content">
+                            <h4>临沂中心</h4>
+                            <div>
+                                <p>北城一期核心区位，邻市府·享万达，市政中轴一号地块，大剧院，博物馆、科技馆、文化中心等周边文化政治资源丰富，26万平五洲湖公园，家门口的私家花园。</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </li>
+                <li class="case-item">
+                    <a href="https://vrshoulou.cn/t/3" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case2.jpg" alt="奥悦城园">
+                        </div>
+                        <div class="case-content">
+                            <h4>奥悦诚园</h4>
+                            <div>
+                                <p>项目位于人民路核心位置,北至千亩板栗园，天然城市氧吧，自然生态宜居。项目周边配套齐全，紧邻学校、医疗、商场等配套。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="case-item">
+                    <a href="http://www.lyhot.com/jyyfvr/" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case4.jpg" alt="泰鲁禧玥">
+                        </div>
+                        <div class="case-content">
+                            <h4>房源金域樾府</h4>
+                            <div>
+                                <p>秉承“房源地产，创造生活方式”的企业宗旨，集团持续注重产品品质、提高服务质量、满足客户需求、搭建合作平台、承担社会责任，现已发展成为一家以房地产开发、资产经营和实业投资为主导，同时涵盖物业服务、建筑施工、园林工程、苗木培育、商业贸易等业务的集团型企业。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="case-item">
+                    <a href="http://www.lyhot.com/xiyue/" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case3.jpg" alt="泰鲁禧玥">
+                        </div>
+                        <div class="case-content">
+                            <h4>泰鲁·禧玥</h4>
+                            <div>
+                                <p>泰鲁禧玥绿化高达228%左右，沐浴在负氧离子里的房子。我们只培育9栋，严格意义的筛选建筑面积，留更多绿意调节空气湿度，打造原生态的环境，让建筑更健康！</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="case-item">
+                    <a href="http://www.lyhot.com/hengda/" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case6.jpg" alt="泰鲁禧玥">
+                        </div>
+                        <div class="case-content">
+                            <h4>恒大中央广场</h4>
+                            <div>
+                                <p>临沂恒大中央广场毗邻涑河景观带，紧靠城市主干道通达路，享受便捷出行；坐拥泰盛广场、人民广场、和谐广场三大商业圈，社区规划数万平欧陆风情园林、上千平中央内湖、多功能休闲会所、科技新风住宅等品质配套；自然、商业、任务等城市配套一应俱全，打造集住宅、公寓、商铺之大成的城市综合体。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="case-item">
+                    <a href="https://720.mk110.com/vr/1646/" target="_blank">
+                        <div class="case-thumbnail">
+                            <img src="images/case5.jpg" alt="毅德融城">
+                        </div>
+                        <div class="case-content">
+                            <h4>毅德融城</h4>
+                            <div>
+                                <p>赣州蓉江新区做为城市未来发展的市级主中心，以五大片区为主导，“一核四心、两轴六区”为总体架构，毅德着眼城市发展大势，助力建设高品质魅力新区。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="container vr main6">
+        <div class="wrapper">
+            <div class="title-wrap">
+                <h2 class="title">合作伙伴</h2>
+                <!-- <p class="title-desc">彻底解决营销无积累、过程难管控的弊端</p> -->
+            </div>
+
+            <div class="partners">
+                <ul class="partner-list">
+                    <li class="partner-item">
+                        <img src="images/co-hd.jpg" alt="恒大集团">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-lyzx.jpg" alt="临沂中心">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-aycy.jpg" alt="奥悦诚园">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-tl.jpg" alt="泰鲁城投集团">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-ftx.jpg" alt="房天下">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-hr.jpg" alt="华润置地">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-hx.jpg" alt="红星美凯龙">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-lb.jpg" alt="联邦家居">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-wd.jpg" alt="万达广场">
+                    </li>
+                    <li class="partner-item">
+                        <img src="images/co-ysw.jpg" alt="央视网">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container vr main-ad">
+        <div class="wrapper">
+            <h3 class="wow animated fadeInDown">VR看房，让数字化卖房更简单</h3>
+            <a class="wow animated fadeInUp" href="http://www.lyhot.com/xiyue/" target="_blank">立即体验</a>
+        </div>
+
+        <div class="svg-box" canvas-wave-move="" color="#fff,#fff,#fff" opacity=".05,.05,.05" args="800,300,200" time="18,14,9" style="background:#1553f6;" absolute="" max="" exec=",canvaswavemove," wave_xzsd="01359168555681809">
+            <svg class="s1" style="top: -150px;">
+                <path fill="#fff" d="M0,300c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0l0,200 l-8000,0Z"></path>
+            </svg>
+            <svg class="s2" style="top: -150px;">
+                <path fill="#fff" d="M0,300c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0l0,200 l-8000,0Z"></path>
+            </svg>
+            <svg class="s3" style="top: -150px;">
+                <path fill="#fff" d="M0,300c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0c300 -150 500 -150 800 0c300 150 500 150 800 0l0,200 l-8000,0Z"></path>
+            </svg>
+        </div>
+
+    </div>
+   
+
+
+    <div class="container main7">
+        <div class="wrapper">
+            <div class="footer flex">
+                <div class="footer-about">
+                    <h4>关于我们</h4>
+                    <p>VR看房系统是北京维啊科技有限公司旗下产品，我们是国内较早的VR全景平台系统提供商。我们秉承"VR让营销更有价值"的理念，专注VR全景技术的研发，为传统企业及平台运营方提供VR全景平台和解决方案。</p>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>产品介绍</h4>
+                        <p><a href="http://ivryun.com/vrkanfang/">VR看房系统</a></p>
+                        <p><a href="http://ivryun.com/vrkanfang/">VR售楼部</a></p>
+                        <p><a href="http://ivryun.com/vrkanfang/">VR带看系统</a></p>
+                        <p><a href="http://ivryun.com/vrkanfang/">微沙盘系统</a></p>
+                    </div>
+                    <div>
+                        <h4>案例展示</h4>
+                        <p><a href="https://vrshoulou.cn/t/1" target="_blank">临沂中心</a></p>
+                        <p><a href="https://vrshoulou.cn/t/3" target="_blank">奥悦诚园</a></p>
+                        <p><a href="http://www.lyhot.com/jyyfvr/" target="_blank">房源金域樾府</a></p>
+                        <p><a href="http://www.lyhot.com/xiyue/" target="_blank">泰鲁禧玥</a></p>
+                        <p><a href="http://www.lyhot.com/hengda/" target="_blank">恒大中央广场</a></p>
+                        <p><a href="https://720.mk110.com/vr/1646/" target="_blank">毅德融城</a></p>
+                    </div>
+                    <div>
+                        <h4>联系我们</h4>
+                        <p>电话：4000-123-720</p>
+                        <p>手机：137 1807 0661</p>
+                        <p>Q Q：71856720</p>
+                        <p>邮箱：info@ivryun.com</p>
+                        <!-- <p>地址：山东省临沂市兰山区启阳路26号澳尔诺财富中心</p> -->
+                    </div>
+                    <div class="footer-ewm">
+                        <h4>售前客服</h4>
+                        <img src="images/erweima.jpg" alt="">
+                        <p>扫码加微信咨询</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2021 ivryun.com Inc. All Rights Reserved 北京维啊科技有限公司 版权所有</p>
+                <p>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802032043" target="_blank"><img src="images/beian.png" alt=""> <span>京公网安备 11010802032043号</span></a>
+                    <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备16051430号-1</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed">
+        <ul class="pop">
+            <li class="pop-item pop-ewm">
+                <span></span>
+                <div class="pop-content">
+                    <img src="images/erweima.jpg" alt="">
+                    <p>扫码加微信咨询</p>
+                </div>
+            </li>
+            <li class="pop-item pop-qq">
+                <span></span>
+                <div class="pop-content">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=71856720&site=qq&menu=yes" target="_blank">
+                        QQ咨询
+                    </a>
+                </div>
+            </li>
+            <li class="pop-item pop-tel">
+                <span></span>
+                <div class="pop-content">
+                    <p>4000-123-720</p>
+                </div>
+            </li>
+            
+            <li class="pop-item pop-back2top">
+                <span></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="m-nav">
+        <div class="m-tel"><a href="tel:13718070661">拨打电话</a></div>
+        <div class="m-wx">
+            <span id="mWxBtn">加微信咨询</span>
+            <div class="m-wx-show">
+                <span class="m-wx-l">微信号：<i>ivryun</i></span>
+                <span class="m-wx-r">长按左侧复制</span>
+            </div>
+        </div>
+        <div class="m-qq"><a href="http://wpa.qq.com/msgrd?v=3&uin=71856720&site=qq&menu=yes">QQ咨询</a></div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $("#mWxBtn").click(function(){
+            $(".m-wx-show").fadeToggle();
+        });
+    </script>
+    
+</body>
+</html>
